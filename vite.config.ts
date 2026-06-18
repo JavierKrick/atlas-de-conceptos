@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/atlas-de-conceptos/', 
+    base: '/Atlas-De-Conceptos/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
